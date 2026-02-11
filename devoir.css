@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(244, 235, 236);
+}
+header{
+     display: flex;
+    justify-content: space-around; 
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+}
+.page0{
+    gap: 80px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+ header .divlien a{
+    text-decoration: none; 
+    margin: 10px;
+    list-style: none;
+    gap: 40px;
+    color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+.divlien a:hover{
+    color: rgb(186, 15, 15);
+ }
+.bouton{
+ background-color:rgb(168, 7, 7);
+   color: whitesmoke ;
+   border-color:rgb(168, 7, 7) ;
+   border-radius: 5px;
+
+}
+
+ .btn {
+   background-color: whitesmoke;
+   color: rgb(168, 7, 7);
+   border-color:rgb(168, 7, 7) ;
+   border-radius: 5px;
+}
+.imag-p img{
+width: 300px;
+border-radius: 0%;
+margin-top: -200px;
+height: 380px;
+margin-left: 760px;
+
+}
+section .service{
+    
+}
+.service h3{
+    display: flex;
+     justify-content: space-around;
+     text-align: center;
+     margin-top: 20px;
+     
+}
+.fieldsetn{
+    display: flex;
+    gap: 20px;
+    height: 300px;
+   
+}
+fieldset{
+    border-color: rgb(210, 12, 12);
+}
+section.service{
+    background-color: whitesmoke;
+}
+.fieldsetn a {
+    text-decoration: none;
+    color: rgb(147, 9, 9);
+}
+.tf{
+    display: flex;
+    background-color: aliceblue;
+}
+section.a-propos{
+    background-color:  whitesmoke;
+} 
+.container{
+    display: center;
+    justify-content: center;
+    gap: 45px;
+    background-color: azure;
+}
